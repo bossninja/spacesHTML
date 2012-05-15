@@ -1,0 +1,7 @@
+.DS_Store
+lib/.sass-cache/*
+.sass-cache/*
+.rvmrc
+sass/*
+resources/*
+config.rb
