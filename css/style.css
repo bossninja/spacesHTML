@@ -1533,8 +1533,8 @@ a:focus, input:focus, textarea:focus { outline: none; }
 .properties.button { height: 3px; }
 .properties.button .container { position: relative; }
 .properties.button .container .panel-button { position: absolute; background: #334c5e; width: 140px; height: 42px; bottom: -42px; right: 0; text-align: center; z-index: 9; }
-.properties.button .container .panel-button .panel-button-arrow { background: url(../img/sprites.png); background-position: -222px 0; width: 11px; height: 6px; margin: 6px auto 4px; display: block; }
-.properties.button .container .panel-button .button { color: #b3becb; display: block; width: 140px; font-size: 14px; padding: 0 0 6px; background: none; border: none; }
+.properties.button .container .panel-button .panel-button-arrow { background: url(../img/sprites.png); background-position: -222px 0; width: 11px; height: 6px; margin: 0 auto 4px; display: block; }
+.properties.button .container .panel-button .button { color: #b3becb; display: block; width: 140px; font-size: 14px; padding: 6px 0; background: none; border: none; }
 
 header.main { background: url(../img/header-bg.jpg); height: 52px; border-top: 1px solid #4f728c; border-bottom: 1px solid #2a3e4f; }
 header.main .container { position: relative; }
