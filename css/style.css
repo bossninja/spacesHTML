@@ -1508,7 +1508,7 @@ ul, li { margin: 0; padding: 0; }
 
 a:focus, input:focus, textarea:focus { outline: none; }
 
-.header {width: 100%; z-index: 999; top: 0; }
+.header { width: 100%; z-index: 999; top: 0; }
 
 .wrapper.properties { background: #334c5e; }
 .wrapper.properties .container { position: relative; }
@@ -1714,9 +1714,7 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .navigation.main .span8 { width: 67%; float: left; }
   .navigation.main .span2 { width: 16.5%; float: left; }
   .navigation.main .owner-login { margin-left: 20px; } }
-@media (max-width: 480px) { 
-  .wrapper.featured-slide { margin-top: 0px; }
-  .wrapper.properties .container .logos .row1 { text-align: center; }
+@media (max-width: 480px) { .wrapper.properties .container .logos .row1 { text-align: center; }
   .wrapper.properties .container .logos .row1 li { margin: 0 0 10px 25%; clear: left; }
   .wrapper.properties .container .logos .row2 li { margin: 0 0 10px 25%; clear: left; }
   .navigation.main { padding: 0 20px; }
@@ -1725,9 +1723,9 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .navigation.main .owner-login { margin: 12px 0; }
   .navigation.main .nav-collapse { width: 100%; }
   .navigation.main .nav { margin: 42px 0 0; }
-  .navigation.main .nav li { float: none; margin-right: 0; padding: 0; text-align:center;border:1px solid #334C5E;margin-bottom:5px;}
+  .navigation.main .nav li { float: none; margin-right: 0; padding: 0; text-align: center; border: 1px solid #334c5e; margin-bottom: 5px; }
   .navigation.main .nav li a { padding: 12px 0; }
-  .navigation.main .nav li a:hover { padding: 12px 0; background-color:#f7f7f7; }
+  .navigation.main .nav li a:hover { padding: 12px 0; background-color: #f7f7f7; }
   .wrapper.login .container .tennant, .wrapper.login .container .owner { padding: 0 20px; }
   .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 100%; margin-left: 0; }
   .wrapper.directions .container .contact-form form input, .wrapper.directions .container .contact-form form textarea { width: 95%; }
