@@ -1512,19 +1512,18 @@ a:focus, input:focus, textarea:focus { outline: none; }
 
 .wrapper.properties { background: #334c5e; }
 .wrapper.properties .container { position: relative; }
-.wrapper.properties .container .logos { display: none; }
 .wrapper.properties .container .logos ul { list-style-type: none; clear: both; margin: 30px 0; }
 .wrapper.properties .container .logos ul li { float: left; }
 .wrapper.properties .container .logos ul li span, .wrapper.properties .container .logos ul li a { background: url(../img/sprites.png); border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; display: block; }
 .wrapper.properties .container .logos ul li .crimson-place { background-position: 0 -239px; width: 159px; height: 44px; }
-.wrapper.properties .container .logos ul li .the-village { background-position: 0 -283px; width: 175px; height: 44px; }
-.wrapper.properties .container .logos ul li .capstone { background-position: 0 -327px; width: 138px; height: 38px; margin-top: 3px; }
-.wrapper.properties .container .logos ul li .traditions { background-position: 0 -365px; width: 177px; height: 35px; margin-top: 4px; }
+.wrapper.properties .container .logos ul li .the-village { background-position: 0 -284px; width: 175px; height: 44px; }
+.wrapper.properties .container .logos ul li .capstone { background-position: 0 -329px; width: 138px; height: 38px; margin-top: 3px; }
+.wrapper.properties .container .logos ul li .traditions { background-position: 0 -368px; width: 177px; height: 35px; margin-top: 4px; }
 .wrapper.properties .container .logos ul li .midtown { background-position: -200px -239px; width: 137px; height: 52px; }
-.wrapper.properties .container .logos ul li .river-pointe { background-position: -200px -291px; width: 141px; height: 44px; margin-top: 4px; }
-.wrapper.properties .container .logos ul li .stadium-view { background-position: -200px -335px; width: 154px; height: 35px; margin-top: 8px; }
-.wrapper.properties .container .logos ul li .shamrock-dawns { background-position: -200px -370px; width: 184px; height: 17px; margin-top: 17px; }
-.wrapper.properties .container .logos ul li .the-legends { background-position: -200px -387px; width: 169px; height: 33px; margin-top: 9px; }
+.wrapper.properties .container .logos ul li .river-pointe { background-position: -200px -292px; width: 141px; height: 44px; margin-top: 4px; }
+.wrapper.properties .container .logos ul li .stadium-view { background-position: -200px -337px; width: 154px; height: 35px; margin-top: 8px; }
+.wrapper.properties .container .logos ul li .shamrock-dawns { background-position: -200px -373px; width: 184px; height: 17px; margin-top: 17px; }
+.wrapper.properties .container .logos ul li .the-legends { background-position: -200px -391px; width: 169px; height: 33px; margin-top: 9px; }
 .wrapper.properties .container .logos .row1 { padding-left: 2px; }
 .wrapper.properties .container .logos .row1 li { margin: 0 36px; }
 .wrapper.properties .container .logos .row2 { padding-left: 3px; margin-bottom: 42px; }
@@ -1574,7 +1573,7 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 .wrapper.amenities .container .amenities { list-style-type: none; }
 .wrapper.amenities .container .amenities li { margin-bottom: 24px; }
 .wrapper.amenities .container .amenities li figure { border: 6px solid #f0f0f0; }
-.wrapper.amenities .container .amenities li figure img { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 1px solid #69839a; }
+.wrapper.amenities .container .amenities li figure img { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 1px solid #69839a; max-width: 100%; }
 .wrapper.amenities .container .amenities li .title { font-size: 16px; font-weight: 600; line-height: 18px; margin: 15px 0 9px; }
 .wrapper.amenities .container .amenities li .title a { color: #333; }
 .wrapper.amenities .container .amenities li p { color: #898989; font-weight: 300; }
@@ -1606,7 +1605,7 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 .wrapper.floor-plans .container .floor-plan .images ul li a { display: block; height: inherit; width: inherit; }
 .wrapper.floor-plans .container .floor-plan .images ul li .wrap { display: table-cell; height: inherit; width: inherit; vertical-align: middle; }
 .wrapper.floor-plans .container .floor-plan .images ul li:last-child { margin: 0; }
-.wrapper.floor-plans .container .features h2 { font-size: 16px; font-weight: 600; line-height: 11px; margin: 0 0 12px; }
+.wrapper.floor-plans .container .features h2 { font-size: 16px; font-weight: 600; line-height: 18px; margin: -4px 0 9px; }
 .wrapper.floor-plans .container .features ul { list-style-type: none; }
 .wrapper.floor-plans .container .features ul li { line-height: 27px; font-weight: 300; clear: both; }
 .wrapper.floor-plans .container .features ul li span { background: url(../img/sprites.png); background-position: -224px -17px; width: 7px; height: 7px; display: inline-block; float: left; margin: 11px 9px 0 0; }
@@ -1647,12 +1646,12 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 .wrapper.directions .container .label-title { margin-bottom: 36px; }
 .wrapper.directions .container .label-title .bullet { background: url(../img/sprites.png); background-position: -223px -7px; width: 9px; height: 9px; display: block; float: left; margin: 15px 12px 0 0; }
 .wrapper.directions .container .label-title h1 { font-size: 26px; color: #333; letter-spacing: -0.025em; margin: 0; font-weight: 400; float: left; }
-.wrapper.directions .container .address .physical h2, .wrapper.directions .container .address .mailing h2 { font-size: 16px; font-weight: 600; line-height: 12px; margin: 0 0 18px; }
+.wrapper.directions .container .address .physical h2, .wrapper.directions .container .address .mailing h2 { font-size: 16px; font-weight: 600; line-height: 18px; margin: -3px 0 15px; }
 .wrapper.directions .container .address .physical p, .wrapper.directions .container .address .mailing p { font-weight: 300; }
 .wrapper.directions .container .address .physical .number, .wrapper.directions .container .address .mailing .number { margin: 0; }
 .wrapper.directions .container .address .physical { margin-bottom: 48px; }
 .wrapper.directions .container .map { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 1px solid #b3becb; }
-.wrapper.directions .container .contact-form h2 { font-size: 16px; font-weight: 600; line-height: 11px; margin: 0 0 19px; }
+.wrapper.directions .container .contact-form h2 { font-size: 16px; font-weight: 600; line-height: 18px; margin: -4px 0 16px; }
 .wrapper.directions .container .contact-form p { font-weight: 300; color: #898989; }
 .wrapper.directions .container .contact-form form { margin: 30px 0 0; }
 .wrapper.directions .container .contact-form form label { float: left; line-height: 44px; width: 66px; text-align: right; padding-right: 21px; clear: both; }
@@ -1671,3 +1670,23 @@ footer.main .container .navigation.footer ul li a { color: #fff; text-decoration
 footer.main .container .navigation.footer ul li a:hover, footer.main .container .navigation.footer ul li a.active { color: #688399; }
 footer.main .container .copyright { font-size: 12px; }
 footer.main .container .logo.footer a { background: url(../img/sprites.png); border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; background-position: -336px 0; width: 84px; height: 60px; position: absolute; top: 0; right: 0; }
+
+@media (max-width: 979px) { .shadow-right, .shadow-left { display: none; }
+  .nav-collapse { height: auto; }
+  .btn-navbar { display: none; }
+  .wrapper.properties .container .logos .row1 li { margin: 0 18px 0 0; }
+  .wrapper.properties .container .logos .row2 li { margin: 0 18px 0 0; }
+  .wrapper.properties .container .logos .row2 li:nth-child(4n+1) { clear: left; }
+  .amenities .span4:nth-child(3n+1) { clear: left; }
+  .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { margin-left: 0; width: 100%; }
+  .wrapper.directions .container .contact-form form label { width: 100%; text-align: left; padding: 0; line-height: normal; }
+  .wrapper.directions .container .contact-form form input, .wrapper.directions .container .contact-form form textarea { width: 92%; }
+  .wrapper.directions .container .contact-form form textarea { max-width: 92%; min-width: 92%; }
+  .wrapper.floor-plans .container .floor-navigation { width: 120px; }
+  .wrapper.floor-plans .container .floor-navigation ul li .bullet { margin: 6px 6px 0 0; }
+  .wrapper.floor-plans .container .floor-navigation ul li a { padding: 15px 0 14px 10px; }
+  .wrapper.floor-plans .container .floor-plan { width: 335px; }
+  .wrapper.floor-plans .container .floor-plan .placeholder { height: 272px; width: 335px; }
+  .wrapper.floor-plans .container .floor-plan .placeholder .wrap img { width: 98%; max-height: 98%; }
+  .wrapper.floor-plans .container .floor-plan .images { width: 335px; }
+  .wrapper.floor-plans .container .prices .buttons a, .wrapper.floor-plans .container .prices .buttons .download { margin-bottom: 10px; float: none; width: 100%; margin-left: 0; } }
