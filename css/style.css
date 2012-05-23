@@ -1723,9 +1723,10 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .navigation.main .owner-login { margin: 12px 0; }
   .navigation.main .nav-collapse { width: 100%; }
   .navigation.main .nav { margin: 42px 0 0; }
-  .navigation.main .nav li { float: none; margin-right: 0; padding: 0; text-align: center; border: 1px solid #334c5e; margin-bottom: 5px; }
+  .navigation.main .nav li { float: none; margin-right: 0; padding: 0; text-align: center; margin-bottom: 5px; background: rgba(73, 110, 136, 0.2); }
   .navigation.main .nav li a { padding: 12px 0; }
   .navigation.main .nav li a:hover { padding: 12px 0; background-color: #f7f7f7; }
+  .navigation.main .tennant-login, .navigation.main .owner-login { padding: 12px 0; }
   .wrapper.login .container .tennant, .wrapper.login .container .owner { padding: 0 20px; }
   .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 100%; margin-left: 0; }
   .wrapper.directions .container .contact-form form input, .wrapper.directions .container .contact-form form textarea { width: 95%; }
