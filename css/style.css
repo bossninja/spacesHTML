@@ -1512,6 +1512,7 @@ a:focus, input:focus, textarea:focus { outline: none; }
 
 .wrapper.properties { background: #334c5e; }
 .wrapper.properties .container { position: relative; }
+.wrapper.properties .container .logos { display: none; }
 .wrapper.properties .container .logos ul { list-style-type: none; clear: both; margin: 30px 0; }
 .wrapper.properties .container .logos ul li { float: left; }
 .wrapper.properties .container .logos ul li span, .wrapper.properties .container .logos ul li a { background: url(../img/sprites.png); border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; display: block; }
