@@ -1713,7 +1713,13 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .navigation.main { padding: 0 20px; }
   .navigation.main .span8 { width: 67%; float: left; }
   .navigation.main .span2 { width: 16.5%; float: left; }
-  .navigation.main .owner-login { margin-left: 20px; } }
+  .navigation.main .owner-login { margin-left: 20px; }
+  .wrapper.floor-plans .container .floor-navigation { width: 100%; }
+  .wrapper.floor-plans .container .floor-plan { width: 100%; margin: 30px 0 0; }
+  .wrapper.floor-plans .container .floor-plan .placeholder { width: 100%; height: auto; text-align: center; }
+  .wrapper.floor-plans .container .floor-plan .placeholder .wrap { width: 767px; }
+  .wrapper.floor-plans .container .floor-plan .placeholder .wrap img { width: auto; height: auto; }
+  .wrapper.floor-plans .container .floor-plan .images { width: 100%; } }
 @media (max-width: 480px) { .wrapper.properties .container .logos .row1 { text-align: center; }
   .wrapper.properties .container .logos .row1 li { margin: 0 0 10px 25%; clear: left; }
   .wrapper.properties .container .logos .row2 li { margin: 0 0 10px 25%; clear: left; }
@@ -1730,4 +1736,10 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .wrapper.login .container .tennant, .wrapper.login .container .owner { padding: 0 20px; }
   .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 100%; margin-left: 0; }
   .wrapper.directions .container .contact-form form input, .wrapper.directions .container .contact-form form textarea { width: 95%; }
-  .wrapper.directions .container .contact-form form textarea { max-width: 95%; min-width: 95%; } }
+  .wrapper.directions .container .contact-form form textarea { max-width: 95%; min-width: 95%; }
+  .wrapper.floor-plans .container .floor-navigation { width: 100%; }
+  .wrapper.floor-plans .container .floor-plan { width: 100%; margin: 30px 0 0; }
+  .wrapper.floor-plans .container .floor-plan .placeholder { width: 100%; height: auto; }
+  .wrapper.floor-plans .container .floor-plan .placeholder .wrap { max-width: 100%; max-height: 100%; }
+  .wrapper.floor-plans .container .floor-plan .placeholder .wrap img { width: 99%; height: auto; }
+  .wrapper.floor-plans .container .floor-plan .images { width: 100%; } }
