@@ -1413,8 +1413,9 @@ a.thumbnail:hover { border-color: #0088cc; -webkit-box-shadow: 0 1px 4px rgba(0,
   .row > [class*="span"], .row-fluid > [class*="span"] { float: none; display: block; width: auto; margin: 0; }
   .thumbnails [class*="span"] { width: auto; }
   input[class*="span"], select[class*="span"], textarea[class*="span"], .uneditable-input { display: block; width: 100%; min-height: 28px; /* Make inputs at least the height of their button counterpart */ /* Makes inputs behave like true block-level elements */ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
-  .input-prepend input[class*="span"], .input-append input[class*="span"] { width: auto; } }
-@media (min-width: 768px) and (max-width: 979px) { .row { margin-left: -20px; *zoom: 1; }
+  .input-prepend input[class*="span"], .input-append input[class*="span"] { width: auto; } 
+	.wrapper.amenities .container .amenities li .title{font-size:14px;}}
+@media (min-width: 767px) and (max-width: 979px) { .row { margin-left: -20px; *zoom: 1; }
   .row:before, .row:after { display: table; content: ""; }
   .row:after { clear: both; }
   [class*="span"] { float: left; margin-left: 20px; }
@@ -1471,7 +1472,8 @@ a.thumbnail:hover { border-color: #0088cc; -webkit-box-shadow: 0 1px 4px rgba(0,
   input.span9, textarea.span9, .uneditable-input.span9 { width: 528px; }
   input.span10, textarea.span10, .uneditable-input.span10 { width: 590px; }
   input.span11, textarea.span11, .uneditable-input.span11 { width: 652px; }
-  input.span12, textarea.span12, .uneditable-input.span12 { width: 714px; } }
+  input.span12, textarea.span12, .uneditable-input.span12 { width: 714px; } 
+	.wrapper.amenities .container .amenities li .title{font-size:14px;}}
 @media (max-width: 979px) { body { padding-top: 0; }
   .navbar-fixed-top { position: static; margin-bottom: 18px; }
   .navbar-fixed-top .navbar-inner { padding: 5px; }
@@ -1565,10 +1567,6 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 
 .wrapper.amenities { border-bottom: 1px solid #e6e6e6; }
 .wrapper.amenities .container { padding: 72px 0 75px; position: relative; }
-.wrapper.amenities .container .up-arrow { position: absolute; left: 0; bottom: 0; }
-.wrapper.amenities .container .up-arrow .arrow-bg { background: #b3becb; padding: 12px 18px; float: left; }
-.wrapper.amenities .container .up-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px 0; width: 11px; height: 6px; display: block; }
-.wrapper.amenities .container .up-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #b3becb; margin: 6px 0 0 9px; }
 .wrapper.amenities .container .label-title { margin-bottom: 12px; }
 .wrapper.amenities .container .label-title .bullet { background: url(../img/sprites.png); background-position: -223px -7px; width: 9px; height: 9px; display: block; float: left; margin: 15px 12px 0 0; }
 .wrapper.amenities .container .label-title h1 { font-size: 26px; color: #333; letter-spacing: -0.025em; margin: 0; font-weight: 400; float: left; }
@@ -1582,10 +1580,6 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 
 .wrapper.floor-plans { background: #f7f7f7; border-bottom: 1px solid #e6e6e6; }
 .wrapper.floor-plans .container { padding: 72px 0 108px; position: relative; }
-.wrapper.floor-plans .container .down-arrow { position: absolute; left: 0; top: 0; }
-.wrapper.floor-plans .container .down-arrow .arrow-bg { background: #edaf5a; padding: 12px 18px; float: left; }
-.wrapper.floor-plans .container .down-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px -7px; width: 11px; height: 6px; display: block; }
-.wrapper.floor-plans .container .down-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #edaf5a; margin: 6px 0 0 9px; }
 .wrapper.floor-plans .container .label-title { margin-bottom: 36px; }
 .wrapper.floor-plans .container .label-title .bullet { background: url(../img/sprites.png); background-position: -223px -7px; width: 9px; height: 9px; display: block; float: left; margin: 15px 12px 0 0; }
 .wrapper.floor-plans .container .label-title h1 { font-size: 26px; color: #333; letter-spacing: -0.025em; margin: 0; font-weight: 400; float: left; }
@@ -1615,15 +1609,11 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 .wrapper.floor-plans .container .prices h2 { font-size: 16px; font-weight: 600; }
 .wrapper.floor-plans .container .prices .price { margin-bottom: 29px; }
 .wrapper.floor-plans .container .prices .buttons a { float: left; font-size: 14px; font-weight: 700; border: 1px solid #dcbe94; padding: 18px 0; background: #fdb24a; letter-spacing: -0.025em; text-shadow: #304a5b 0 1px 1px; color: #fff; display: block; text-align: center; width: 132px; }
-.wrapper.floor-plans .container .prices .buttons .schedule { -webkit-box-shadow: #fed69e 0 1px 0 inset; -moz-box-shadow: #fed69e 0 1px 0 inset; box-shadow: #fed69e 0 1px 0 inset; }
-.wrapper.floor-plans .container .prices .buttons .download { font-weight: 600; margin-left: 1px; text-shadow: none; color: #333; border: 1px solid #b3becb; background: #fff; width: 163px; }
+.wrapper.floor-plans .container .prices .buttons .schedule { margin-left:0;-webkit-box-shadow: #fed69e 0 1px 0 inset; -moz-box-shadow: #fed69e 0 1px 0 inset; box-shadow: #fed69e 0 1px 0 inset; }
+.wrapper.floor-plans .container .prices .buttons .download { margin-left:0;font-weight: 600; margin-left: 1px; text-shadow: none; color: #333; border: 1px solid #b3becb; background: #fff; width: 163px; }
 
 .wrapper.login { background: #fff; border-bottom: 1px solid #e6e6e6; }
 .wrapper.login .container { padding: 72px 0 108px; position: relative; }
-.wrapper.login .container .up-arrow { position: absolute; left: 0; bottom: 0; }
-.wrapper.login .container .up-arrow .arrow-bg { background: #b3becb; padding: 12px 18px; float: left; }
-.wrapper.login .container .up-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px 0; width: 11px; height: 6px; display: block; }
-.wrapper.login .container .up-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #b3becb; margin: 6px 0 0 9px; }
 .wrapper.login .container .tennant, .wrapper.login .container .owner { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; border: 1px solid #e6e6e6; }
 .wrapper.login .container .tennant .login, .wrapper.login .container .owner .login { padding: 36px 0 24px; }
 .wrapper.login .container .tennant .login .tennant-icon, .wrapper.login .container .tennant .login .owner-icon, .wrapper.login .container .owner .login .tennant-icon, .wrapper.login .container .owner .login .owner-icon { background: url(../img/sprites.png); background-position: -246px -99px; width: 121px; height: 120px; float: left; margin-bottom: 24px; }
@@ -1637,14 +1627,6 @@ header.main .container .logo { background: url(../img/sprites.png); background-p
 
 .wrapper.directions { background: #f7f7f7; border-bottom: 1px solid #f7f7f7; }
 .wrapper.directions .container { padding: 72px 0 108px; position: relative; }
-.wrapper.directions .container .down-arrow { position: absolute; left: 0; top: 0; }
-.wrapper.directions .container .down-arrow .arrow-bg { background: #edaf5a; padding: 12px 18px; float: left; }
-.wrapper.directions .container .down-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px -7px; width: 11px; height: 6px; display: block; }
-.wrapper.directions .container .down-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #edaf5a; margin: 6px 0 0 9px; }
-.wrapper.directions .container .up-arrow { position: absolute; left: 0; bottom: 0; }
-.wrapper.directions .container .up-arrow .arrow-bg { background: #b3becb; padding: 12px 18px; float: left; }
-.wrapper.directions .container .up-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px 0; width: 11px; height: 6px; display: block; }
-.wrapper.directions .container .up-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #b3becb; margin: 6px 0 0 9px; }
 .wrapper.directions .container .label-title { margin-bottom: 36px; }
 .wrapper.directions .container .label-title .bullet { background: url(../img/sprites.png); background-position: -223px -7px; width: 9px; height: 9px; display: block; float: left; margin: 15px 12px 0 0; }
 .wrapper.directions .container .label-title h1 { font-size: 26px; color: #333; letter-spacing: -0.025em; margin: 0; font-weight: 400; float: left; }
@@ -1673,6 +1655,19 @@ footer.main .container .navigation.footer ul li a:hover, footer.main .container 
 footer.main .container .copyright { font-size: 12px; }
 footer.main .container .logo.footer a { background: url(../img/sprites.png); border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; background-position: -336px 0; width: 84px; height: 60px; position: absolute; top: 0; right: 0; }
 
+
+
+.wrapper .container .down-arrow { position: absolute; left: 0; top: 0; }
+.wrapper .container .down-arrow .arrow-bg { background: #edaf5a; padding: 12px 18px; float: left; }
+.wrapper .container .down-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px -7px; width: 11px; height: 6px; display: block; }
+.wrapper .container .down-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #edaf5a; margin: 6px 0 0 9px; }
+
+
+.wrapper .container .up-arrow { position: absolute; left: 0; bottom: 0; }
+.wrapper .container .up-arrow .arrow-bg { background: #b3becb; padding: 12px 18px; float: left; }
+.wrapper .container .up-arrow .arrow-bg .arrow { background: url(../img/sprites.png); background-position: -234px 0; width: 11px; height: 6px; display: block; }
+.wrapper .container .up-arrow p { float: left; margin: 0; font-size: 16px; font-weight: 600; color: #b3becb; margin: 6px 0 0 9px; }
+
 @media (min-width: 768px) and (max-width: 979px) { .shadow-right, .shadow-left { display: none; }
   .nav-collapse { height: auto; }
   .btn-navbar { display: none; }
@@ -1697,32 +1692,57 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .wrapper.properties .container .logos .row1 li:nth-child(2n+1) { clear: left; }
   .wrapper.properties .container .logos .row2 li { margin: 0 18px 10px 0; }
   .wrapper.properties .container .logos .row2 li:nth-child(2n+1) { clear: left; }
+  .amenities .span4:nth-child(2n+1) { clear: left; }
+  .amenities .span4 {width: 46%;margin-left:2%;}
   .wrapper .container { margin: 0 20px; }
   .shadow-right, .shadow-left { display: none; }
   .wrapper.login .container .tennant, .wrapper.login .container .owner { padding: 0 20px; }
   .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 65%; }
+  .wrapper.login .container .owner{margin-top:30px;}
   .wrapper.directions .container .contact-form h2 { margin: 30px 0 16px; }
   .wrapper.directions .container .contact-form form label { width: 100%; text-align: left; padding: 0; line-height: normal; }
   .wrapper.directions .container .contact-form form input, .wrapper.directions .container .contact-form form textarea { width: 97%; }
   .wrapper.directions .container .contact-form form textarea { max-width: 97%; min-width: 97%; }
   .wrapper.floor-plans .container .span4 { clear: both; }
   .wrapper.floor-plans .container .span4 h2 { margin: 30px 0 16px; }
-  .wrapper.floor-plans .container .span4 .prices { margin: 0; } }
-@media (min-width: 481px) and (max-width: 767px) { .nav-collapse { height: auto; }
+  .wrapper.floor-plans .container .span4 .prices { margin: 0; } 
+  .wrapper.floor-plans .container .span4 .prices, .wrapper.floor-plans .container .span4 .features {width:50%; margin:0; float:left;}
+  .wrapper.floor-plans .container .prices .buttons a.span4{width:100%; margin-bottom:10px;}
+  .navigation.main .owner-login { margin-top: 12px 0; }
+  .wrapper.properties .container .logos ul{	width:375px; position:relative; margin-left:auto;	margin-right:auto;}
+
+
+
+}
+@media (min-width: 481px) and (max-width: 767px) { 
+	.wrapper.featured-slide .container .hero-unit h1{font-size:40px;}
+	.wrapper.featured-slide .container .hero-unit p{font-size:26px;}
+  .amenities .span4 {width: 228px;}
+	.nav-collapse { height: auto; }
   .btn-navbar { display: none; }
   .navigation.main { padding: 0 20px; }
-  .navigation.main .span8 { width: 67%; float: left; }
-  .navigation.main .span2 { width: 16.5%; float: left; }
-  .navigation.main .owner-login { margin-left: 20px; }
+  .navigation.main .nav li {width:25%; margin:0; text-align:center;}
+  .navigation.main .nav {overflow:hidden; padding-top:12px;}
+  .navigation.main .span8 { width: 100%; float: none; }
+  .navigation.main .span2 { width: 100%; float: none; }
+  .navigation.main .owner-login { margin-bottom: 20px; }
   .wrapper.floor-plans .container .floor-navigation { width: 100%; }
   .wrapper.floor-plans .container .floor-plan { width: 100%; margin: 30px 0 0; }
   .wrapper.floor-plans .container .floor-plan .placeholder { width: 100%; height: auto; text-align: center; }
   .wrapper.floor-plans .container .floor-plan .placeholder .wrap { width: 767px; }
   .wrapper.floor-plans .container .floor-plan .placeholder .wrap img { width: auto; height: auto; }
   .wrapper.floor-plans .container .floor-plan .images { width: 100%; } }
-@media (max-width: 480px) { .wrapper.properties .container .logos .row1 { text-align: center; }
-  .wrapper.properties .container .logos .row1 li { margin: 0 0 10px 25%; clear: left; }
-  .wrapper.properties .container .logos .row2 li { margin: 0 0 10px 25%; clear: left; }
+@media (max-width: 480px) { 
+	.wrapper.featured-slide .container .hero-unit h1{font-size:40px;}
+	.wrapper.featured-slide .container .hero-unit p{font-size:26px;}
+	.wrapper.properties .container .logos .row1 { text-align: center; }
+  .amenities .span4 {width: 100%; margin:0;}
+  .amenities .span4 img {width:100%;}
+	.wrapper.login .container .tennant, .wrapper.login .container .owner{margin-top:10px;}
+	.wrapper.amenities .container .amenities li {margin-left:0;}
+	.wrapper.properties .container .logos .row1 li { margin: 0 0 10px 0%; clear: left; }
+  .wrapper.properties .container .logos .row2 li { margin: 0 0 10px 0%; clear: left; }
+  .wrapper.properties .container .logos ul{width:190px;}
   .navigation.main { padding: 0 20px; }
   .navigation.main .btn-navbar { margin-top: 6px; }
   .navigation.main .tennant-login, .navigation.main .owner-login { margin-top: 42px; }
@@ -1734,7 +1754,7 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .navigation.main .nav li a:hover { padding: 12px 0; background-color: #f7f7f7; }
   .navigation.main .tennant-login, .navigation.main .owner-login { padding: 12px 0; }
   .wrapper.login .container .tennant, .wrapper.login .container .owner { padding: 0 20px; }
-  .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 100%; margin-left: 0; }
+  .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 60%; margin-left: 20px; float:left;}
   .wrapper.directions .container .contact-form form input, .wrapper.directions .container .contact-form form textarea { width: 95%; }
   .wrapper.directions .container .contact-form form textarea { max-width: 95%; min-width: 95%; }
   .wrapper.floor-plans .container .floor-navigation { width: 100%; }
@@ -1742,4 +1762,27 @@ footer.main .container .logo.footer a { background: url(../img/sprites.png); bor
   .wrapper.floor-plans .container .floor-plan .placeholder { width: 100%; height: auto; }
   .wrapper.floor-plans .container .floor-plan .placeholder .wrap { max-width: 100%; max-height: 100%; }
   .wrapper.floor-plans .container .floor-plan .placeholder .wrap img { width: 99%; height: auto; }
-  .wrapper.floor-plans .container .floor-plan .images { width: 100%; } }
+  .wrapper.floor-plans .container .floor-plan .images { width: 100%; } 
+	.wrapper.login .container .tennant .login .tennant-icon, .wrapper.login .container .tennant .login .owner-icon, .wrapper.login .container .owner .login .tennant-icon, .wrapper.login .container .owner .login .owner-icon{}
+	}
+
+@media (max-width: 440px) {
+	.wrapper.login .container .tennant .login .tennant-icon, .wrapper.login .container .tennant .login .owner-icon, .wrapper.login .container .owner .login .tennant-icon, .wrapper.login .container .owner .login .owner-icon{ float:none; margin-left:auto;margin-right:auto;}
+  .wrapper.login .container .tennant .login .info, .wrapper.login .container .owner .login .info { width: 100%; text-align:center;margin-left:0;}
+	.wrapper.floor-plans .container .prices .buttons .schedule, .wrapper.floor-plans .container .prices .buttons .download{width:100%;margin-bottom:5px;}
+	.properties.button .container .panel-button{position:relative;bottom:auto;margin:0 auto;}
+	.properties.button{height:auto;}
+	.wrapper.floor-plans .container .span4 .prices, .wrapper.floor-plans .container .span4 .features {width:100%; margin:0; float:none;}
+}
+
+@media (max-width: 300px) {
+	.wrapper.login .container .tennant .login .info h1, .wrapper.login .container .owner .login .info h1{font-size:16px;}
+	.wrapper.login .container .tennant .login .tennant-button, .wrapper.login .container .tennant .login .owner-button, .wrapper.login .container .owner .login .tennant-button, .wrapper.login .container .owner .login .owner-button{font-size:12px;}
+	footer.main .container .logo.footer a{ top:auto;}
+}
+
+@media (max-width: 250px) {
+	header.main .container{margin:0 10px;}
+	.wrapper.featured-slide .container .hero-unit h1{font-size:20px;}
+	.wrapper.featured-slide .container .hero-unit p{font-size:13px;}
+}
